@@ -1,6 +1,6 @@
 eureka:
   client:
     service-url:
-      defaultZone: http://x1:7003/eureka/,http://x2:7004/eureka/,http://x3:7005/eureka/
+      defaultZone: http://10.10.8.101:7003/eureka/,http://10.10.8.37:7004/eureka/,http://10.10.5.0:7005/eureka/
 
 
