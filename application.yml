@@ -1,12 +1,12 @@
 partition:
    host1:
-      name: localhost
+      name: x1
       port: 7003
    host2:
-      name: localhost
+      name: x2
       port: 7004
    host3:
-      name: localhost
+      name: x3
       port: 7005
    host4:
       name: localhost
