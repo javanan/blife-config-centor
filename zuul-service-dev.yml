@@ -1,2 +1,28 @@
 server:
   port: 8080
+
+zuul:
+  routes:
+    sign-service:
+      path: /sign/**
+      serviceId: sign-service
+
+    sys-service:
+      path: /sys/**
+      serviceId: sys-service
+
+    user-service:
+      path: /user/**
+      serviceId: user-service
+
+    jwt-service:
+      path: /jwt/**
+      serviceId: jwt-service
+
+    authority-service:
+      path: /authority/**
+      serviceId: authority-service
+
+    resource-service:
+      path: /resource/**
+      serviceId: resource-service
