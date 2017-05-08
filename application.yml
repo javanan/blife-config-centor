@@ -8,6 +8,3 @@ partition:
    host3:
       name: localhost
       port: 7005
-   host3:
-      name: localhost
-      port: 7005
