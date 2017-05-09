@@ -1,10 +1,10 @@
 partition:
    host1:
-      name: blife/eureka-service01
+      name: b-eureka-service01
       port: 7003
    host2:
-      name: blife/eureka-service02
+      name: b-eureka-service02
       port: 7003
    host3:
-      name: blife/eureka-service03
+      name: b-eureka-service03
       port: 7003
