@@ -2,5 +2,5 @@ server:
   port: 7104
 
 jwt:
-  vaild:
+  valid:
     time: 72000 #72000 jwt 的有效时间
