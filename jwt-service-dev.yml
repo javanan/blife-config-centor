@@ -5,6 +5,7 @@ jwt:
   valid:
     time: 72000 #72000 jwt 的有效时间
 
+
 spring:
   redis:
     database: 0
