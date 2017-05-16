@@ -7,10 +7,10 @@ spring:
     username: root
     password: root
     type: com.alibaba.druid.pool.DruidDataSource
-    max-active: 20
-    max-idle: 50
-    min-idle: 5
-    initial-size: 10
+      max-active: 20
+      max-idle: 50
+      min-idle: 5
+      initial-size: 10
 
 mybatis:
   mapper-locations: classpath:mapper/*.xml
