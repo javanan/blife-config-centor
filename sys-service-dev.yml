@@ -3,7 +3,7 @@ server:
 
 
 druid:
-  url: jdbc:mysql://10.10.8.101:3306/taichi?useUnicode=true&characterEncoding=utf8&useSSL=false
+  url: jdbc:mysql://10.10.8.101:3306/blife?useUnicode=true&characterEncoding=utf8&useSSL=false
   driver-class: com.mysql.jdbc.Driver
   username: root
   password: root
