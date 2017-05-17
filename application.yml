@@ -3,4 +3,6 @@ eureka:
     service-url:
       defaultZone: http://b-eureka-service01:7003/eureka/,http://b-eureka-service02:7003/eureka/,http://b-eureka-service03:7003/eureka/
 
-
+spring:
+  zipkin:
+     base-url: http://sleuth-service:9012
