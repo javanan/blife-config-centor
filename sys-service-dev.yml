@@ -1,11 +1,5 @@
 server:
   port: 8101
-spring:
-  datasource:
-    driver-class-name: com.mysql.jdbc.Driver
-    url: jdbc:mysql://10.10.8.101:3306/taichi
-    username: root
-    password: root
 
 
 druid:
