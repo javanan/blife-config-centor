@@ -5,12 +5,5 @@ eureka:
 
 spring:
   zipkin:
-     #base-url: http://sleuth-service:9012
-     enabled: false
-     compression:
-       enabled: true
-     service:
-       name: sleuth-service
-     locator:
-       discovery:
-         enabled: true
+     base-url: http://localhost:7013
+
