@@ -6,7 +6,7 @@ eureka:
 spring:
   zipkin:
      #base-url: http://sleuth-service:9012
-     Compression:
+     compression:
        enabled: true
-     Service:
+     service:
        name: sleuth-service
