@@ -5,7 +5,7 @@ eureka:
 
 spring:
   zipkin:
-     base-url: http://10.10.8.101:7013
+     base-url: http://10.10.8.101:7006
      #enabled: false
      compression:
        enabled: true
