@@ -10,3 +10,6 @@ spring:
        enabled: true
      service:
        name: sleuth-service
+     locator:
+       discovery:
+         enabled: true
