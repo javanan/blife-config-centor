@@ -6,7 +6,7 @@ eureka:
 spring:
   zipkin:
      #base-url: http://localhost:7013
-     enabled: false
+     #enabled: false
      compression:
        enabled: true
      service:
