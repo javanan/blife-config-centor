@@ -7,6 +7,18 @@ spring:
     username: root
     password: root
 
+
+druid:
+  url: jdbc:mysql://10.10.8.101:3306/taichi?useUnicode=true&characterEncoding=utf8&useSSL=false
+  driver-class: com.mysql.jdbc.Driver
+  username: root
+  password: root
+  initial-size: 1
+  min-idle: 1
+  max-active: 20
+  test-on-borrow: true
+
+
 mybatis:
   mapper-locations: classpath:mapper/*.xml
   type-aliases-package: com.blife.sys.model
