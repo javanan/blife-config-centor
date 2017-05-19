@@ -13,3 +13,5 @@ spring:
      locator:
        discovery:
          enabled: true
+logging:
+  level: debug
