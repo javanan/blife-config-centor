@@ -7,7 +7,7 @@ datasource:
   readSize: 2
 
 
-# 主数据源
+# 主数据源.
 write_datasource01:
   url: jdbc:mysql://10.10.8.101:3306/blife?useUnicode=true&characterEncoding=utf8&useSSL=false
   driverClass: com.mysql.jdbc.Driver
