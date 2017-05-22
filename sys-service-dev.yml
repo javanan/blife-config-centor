@@ -10,12 +10,12 @@ datasource:
 # 主数据源
 write_datasource01:
   url: jdbc:mysql://10.10.8.101:3306/blife?useUnicode=true&characterEncoding=utf8&useSSL=false
-  driverClassName: com.mysql.jdbc.Driver
+  driverClass: com.mysql.jdbc.Driver
   username: root
   password: root
-  initialSize: 1
-  minIdle: 1
-  maxActive: 20
+  initial_size: 1
+  min_idle: 1
+  max_active: 20
   testOnBorrow: true
   # 配置间隔多久才进行一次检测，检测需要关闭的空闲连接，单位是毫秒
   timeBetweenEvictionRunsMillis: 60000
