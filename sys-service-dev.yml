@@ -28,9 +28,10 @@ writedatasource:
   #connectionProperties: druid.stat.mergeSql=true;druid.stat.slowSqlMillis=5000
   useGlobalDataSourceStat: true
 
-mybatis:
-  mapper-locations: classpath:mapper/*.xml
-  type-aliases-package: com.blife.sys.model
+
+#mybatis:
+ # mapper-locations: classpath:mapper/*.xml
+  #type-aliases-package: com.blife.sys.model
 
 
 
@@ -75,3 +76,16 @@ readdatasource02:
   filters: stat,wall,logback
   #connectionProperties: druid.stat.mergeSql=true;druid.stat.slowSqlMillis=5000
   useGlobalDataSourceStat: true
+
+mybatis-plus:
+  mapper-locations: classpath:mapper/*.xml
+  typeAliasesPackage: com.blife.sys.model
+  global-config:
+    id-type: 2
+    field-strategy: 2
+    auto-set-db-type: true
+    db-column-underline: true
+    refresh-mapper: true
+  configuration:
+    map-underscore-to-camel-case: true
+    cache-enabled: false
