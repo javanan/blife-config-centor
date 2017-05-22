@@ -13,20 +13,20 @@ writedatasource:
   driver-class: com.mysql.jdbc.Driver
   username: root
   password: root
-  #initialSize: 1
-  #minIdle: 1
-  #maxActive: 20
-  #testOnBorrow: true
-  #timeBetweenEvictionRunsMillis: 60000
-  #minEvictableIdleTimeMillis: 300000
-  #validationQuery: SELECT 1 FROM DUAL
-  #testWhileIdle: true
-  #testOnReturn: false
-  #poolPreparedStatements: true
-  #maxPoolPreparedStatementPerConnectionSize: 20
-  #filters: stat,wall,logback
+  initialSize: 1
+  minIdle: 1
+  maxActive: 20
+  testOnBorrow: true
+  timeBetweenEvictionRunsMillis: 60000
+  minEvictableIdleTimeMillis: 300000
+  validationQuery: SELECT 1 FROM DUAL
+  testWhileIdle: true
+  testOnReturn: false
+  poolPreparedStatements: true
+  maxPoolPreparedStatementPerConnectionSize: 20
+  filters: stat,wall,logback
   #connectionProperties: druid.stat.mergeSql=true;druid.stat.slowSqlMillis=5000
-  #useGlobalDataSourceStat: true
+  useGlobalDataSourceStat: true
 
 mybatis:
   mapper-locations: classpath:mapper/*.xml
@@ -52,7 +52,7 @@ read_datasource01:
   poolPreparedStatements: true
   maxPoolPreparedStatementPerConnectionSize: 20
   filters: stat,wall,logback
-  connectionProperties: druid.stat.mergeSql=true;druid.stat.slowSqlMillis=5000
+  #connectionProperties: druid.stat.mergeSql=true;druid.stat.slowSqlMillis=5000
   useGlobalDataSourceStat: true
 
 
@@ -73,5 +73,5 @@ read_datasource01:
   poolPreparedStatements: true
   maxPoolPreparedStatementPerConnectionSize: 20
   filters: stat,wall,logback
-  connectionProperties: druid.stat.mergeSql=true;druid.stat.slowSqlMillis=5000
+  #connectionProperties: druid.stat.mergeSql=true;druid.stat.slowSqlMillis=5000
   useGlobalDataSourceStat: true
