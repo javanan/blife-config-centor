@@ -1,8 +1,13 @@
 server:
   port: 8101
 
+datasource:
+  type: com.alibaba.druid.pool.DruidDataSource
+  readSize: 2
+
+
 # 主数据源
-druid:
+write_datasource01:
   url: jdbc:mysql://10.10.8.101:3306/blife?useUnicode=true&characterEncoding=utf8&useSSL=false
   driver-class: com.mysql.jdbc.Driver
   username: root
@@ -36,7 +41,6 @@ mybatis:
 
 # 从数据源01
 read_datasource01:
-  type: com.alibaba.druid.pool.DruidDataSource
   url: jdbc:mysql://10.10.8.101:3306/blife_read01?useUnicode=true&characterEncoding=utf8&useSSL=false
   driver-class: com.mysql.jdbc.Driver
   username: root
@@ -64,7 +68,6 @@ read_datasource01:
 
 # 从数据源02
 read_datasource01:
-  type: com.alibaba.druid.pool.DruidDataSource
   url: jdbc:mysql://10.10.8.101:3306/blife_read02?useUnicode=true&characterEncoding=utf8&useSSL=false
   driver-class: com.mysql.jdbc.Driver
   username: root
