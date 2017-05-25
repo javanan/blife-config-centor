@@ -1,10 +1,10 @@
 partition:
    host1:
       name: b-eureka-service01
-      port: 7003
+      port: 8080
    host2:
       name: b-eureka-service02
-      port: 7003
+      port: 8080
    host3:
       name: b-eureka-service03
-      port: 7003
+      port: 8080
