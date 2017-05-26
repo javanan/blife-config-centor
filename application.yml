@@ -1,8 +1,7 @@
 eureka:
   client:
     service-url:
-      defaultZone: http://b-eureka-service01:8080/eureka/,http://b-eureka-service02:8080/eureka/,
-      http://b-eureka-service03:8080/eureka/
+      defaultZone: http://b-eureka-service01:8080/eureka/,http://b-eureka-service02:8080/eureka/,http://b-eureka-service03:8080/eureka/
 
 spring:
   zipkin:
