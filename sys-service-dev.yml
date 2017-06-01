@@ -39,8 +39,8 @@ mybatis:
 readdatasource01:
   url: jdbc:mysql://10.10.20.100:3306/blife_read01?useUnicode=true&characterEncoding=utf8&useSSL=false
   driverClass: com.mysql.jdbc.Driver
-  username: read01
-  password: read01
+  username: root
+  password: root
   initialSize: 1
   minIdle: 1
   maxActive: 20
@@ -60,8 +60,8 @@ readdatasource01:
 readdatasource02:
   url: jdbc:mysql://10.10.20.100:3306/blife_read02?useUnicode=true&characterEncoding=utf8&useSSL=false
   driverClass: com.mysql.jdbc.Driver
-  username: read02
-  password: read02
+  username: root
+  password: root
   initialSize: 1
   minIdle: 1
   maxActive: 20
