@@ -3,5 +3,5 @@ server:
 turbine:
   aggregator:
     clusterConfig: default
-  appConfig: user-service,sign-service,jwt-service
+  appConfig: sys-service,sign-service,jwt-service
   clusterNameExpression: new String("default")
