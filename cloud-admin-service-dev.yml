@@ -9,4 +9,4 @@ spring:
 
 endpoints:
   health:
-    sensitive: true
+    sensitive: false
