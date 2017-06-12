@@ -10,3 +10,14 @@ spring:
 endpoints:
   health:
     sensitive: false
+    enabled: true
+  actuator:
+    enabled: true
+    sensitive: false
+  beans:
+    sensitive: false
+    enabled: true
+
+management:
+  security:
+    enabled: false
