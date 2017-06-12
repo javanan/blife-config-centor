@@ -1,2 +1,12 @@
 server:
   port: 7006
+
+spring:
+  jackson:
+    serialization:
+      indent_output: true
+
+
+endpoints:
+  health:
+    sensitive: false
