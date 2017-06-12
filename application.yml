@@ -13,12 +13,16 @@ spring:
     locator:
       discovery:
         enabled: true
-  boot:
-    admin:
-      url: http://b-cloud-admin-service:7006
+
 logging:
   level: debug
 
+info:
+  build:
+    artifact: @project.artifactId@
+    name: @project.name@
+    description: @project.description@
+    version: @project.version@
 
 
 
