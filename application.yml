@@ -5,13 +5,18 @@ eureka:
 
 spring:
   zipkin:
-     base-url: http://b-sleuth-service:7005
+    base-url: http://b-sleuth-service:7005
      #enabled: false
-     compression:
-       enabled: true
+    compression:
+      enabled: true
      #service.name: sleuth-service
-     locator:
-       discovery:
-         enabled: true
+    locator:
+      discovery:
+        enabled: true
+  boot:
+    admin:
+      url: http://b-cloud-admin-service:7006
 logging:
   level: debug
+
+
