@@ -1,21 +1,2 @@
 server:
   port: 7006
-
-spring:
-  jackson:
-    serialization:
-      indent_output: true
-endpoints:
-  health:
-    sensitive: false
-    enabled: true
-  actuator:
-    enabled: true
-    sensitive: false
-  beans:
-    sensitive: false
-    enabled: true
-
-management:
-  security:
-    enabled: false
